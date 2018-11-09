@@ -299,7 +299,7 @@
     const convertToPng = ({src, width, height}) => {
       const canvas = document.createElement('canvas');
       const context = canvas.getContext('2d');
-      const pixelRatio = window.devicePixelRatio || 1;
+      const pixelRatio = 1;
 
       canvas.width = width * pixelRatio;
       canvas.height = height * pixelRatio;
